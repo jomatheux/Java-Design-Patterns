@@ -1,6 +1,6 @@
 public class SingletonLazyHolder{
     private static class InstanceHolder{
-        public  static SingletonLazyHolder instance;
+        public  static SingletonLazyHolder instance = new SingletonLazyHolder();
     }
     private SingletonLazyHolder(){
     }
